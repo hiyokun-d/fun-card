@@ -21,12 +21,12 @@ const Home: NextPage = () => {
 						no
 					</button>
 				</div>
-				<div className={`${styles.allCards} ${styles.card2}`}></div>
-				<div className={`${styles.allCards} ${styles.card3}`}></div>
-				<div className={`${styles.allCards} ${styles.card4}`}></div>
-				<div className={`${styles.allCards} ${styles.card5}`}></div>
-				<div className={`${styles.allCards} ${styles.card6}`}></div>
-				<div className={`${styles.allCards} ${styles.card7}`}></div>
+				<div className={`${styles.allCards}`}></div>
+				<div className={`${styles.allCards}`}></div>
+				<div className={`${styles.allCards}`}></div>
+				<div className={`${styles.allCards}`}></div>
+				<div className={`${styles.allCards}`}></div>
+				<div className={`${styles.allCards}`}></div>
 			</div>
 		</div>
 	);

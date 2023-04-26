@@ -19,6 +19,9 @@
 	will-change: transform, background-color, box-shadow;
 	transition: transform 0.5s cubic-bezier(0.26, -0.2, 0.41, 1.32),
 		background-color 1.1s ease, box-shadow 0.7s ease-in-out;
+	position: absolute;
+	transform: translateZ(0);
+	z-index: auto;
 }
 
 .indexCard {
@@ -49,86 +52,34 @@
 	margin-bottom: 10px;
 }
 
-.card2 {
-	transform: rotate(0deg);
-	position: absolute;
-	z-index: 3;
-	/* will-change: transform; */
-}
-
-.card3 {
-	transform: rotate(0deg);
-	position: absolute;
-	z-index: 2;
-	/* will-change: transform; */
-}
-
-.card4 {
-	transform: rotate(0deg);
-	position: absolute;
-	z-index: 1;
-	/* will-change: transform; */
-}
-
-.card5 {
-	transform: rotate(0deg);
-	position: absolute;
-	z-index: 0;
-	/* will-change: transform; */
-}
-
-.card6 {
-	transform: rotate(0deg);
-	position: absolute;
-	z-index: -1;
-	/* will-change: transform; */
-}
-
-.card7 {
-	transform: rotate(0deg);
-	position: absolute;
-	z-index: -2;
-	/* will-change: transform; */
-}
-
-.card:hover .indexCard {
-	box-shadow: 0 0 0px black;
-}
-
-.card:hover .card2 {
+.card:hover .allCards:nth-child(7) {
 	transform: rotate(10deg);
 	background-color: #449d91;
-	box-shadow: 0px 0px 30px rgb(32, 32, 32);
 }
 
-.card:hover .card3 {
+.card:hover .allCards:nth-child(6) {
 	transform: rotate(20deg);
 	background-color: #2d6961;
-	box-shadow: 0px 0px 40px rgb(32, 32, 32);
 }
 
-.card:hover .card4 {
+.card:hover .allCards:nth-child(5) {
 	transform: rotate(30deg);
 	background-color: #1b3f3b;
-	box-shadow: 0px 0px 50px rgb(32, 32, 32);
 }
 
-.card:hover .card5 {
+.card:hover .allCards:nth-child(4) {
 	transform: rotate(40deg);
 	background-color: #1b2f3f;
-	box-shadow: 0px 0px 55px rgb(32, 32, 32);
 }
 
-.card:hover .card6 {
+.card:hover .allCards:nth-child(3) {
 	transform: rotate(50deg);
 	background-color: #1b1b3f;
-	box-shadow: 0px 0px 60px rgb(32, 32, 32);
 }
 
-.card:hover .card7 {
+.card:hover .allCards:nth-child(2) {
 	transform: rotate(60deg);
 	background-color: #151532;
-	box-shadow: 0px 0px 65px rgb(32, 32, 32);
 }
 
 @media (prefers-color-scheme: light) {
@@ -139,39 +90,27 @@
 		font-family: "Times New Roman", Times, serif;
 	}
 
-	.card:hover .card2 {
-		transform: rotate(10deg);
+	.card:hover .allCards:nth-child(7) {
 		background-color: #0355b3;
-		box-shadow: 0px 0px 30px rgb(32, 32, 32);
 	}
 
-	.card:hover .card3 {
-		transform: rotate(20deg);
+	.card:hover .allCards:nth-child(6) {
 		background-color: #014ca0;
-		box-shadow: 0px 0px 40px rgb(32, 32, 32);
 	}
 
-	.card:hover .card4 {
-		transform: rotate(30deg);
+	.card:hover .allCards:nth-child(5) {
 		background-color: #02438d;
-		box-shadow: 0px 0px 50px rgb(32, 32, 32);
 	}
 
-	.card:hover .card5 {
-		transform: rotate(40deg);
+	.card:hover .allCards:nth-child(4) {
 		background-color: #012c5e;
-		box-shadow: 0px 0px 55px rgb(32, 32, 32);
 	}
 
-	.card:hover .card6 {
-		transform: rotate(50deg);
+	.card:hover .allCards:nth-child(3) {
 		background-color: #080261;
-		box-shadow: 0px 0px 60px rgb(32, 32, 32);
 	}
 
-	.card:hover .card7 {
-		transform: rotate(60deg);
+	.card:hover .allCards:nth-child(2) {
 		background-color: #150145;
-		box-shadow: 0px 0px 65px rgb(32, 32, 32);
 	}
 }
