@@ -16,36 +16,42 @@
 	transform: rotate(0deg);
 	position: absolute;
 	z-index: 3;
+	will-change: transform;
 }
 
 .card3 {
 	transform: rotate(0deg);
 	position: absolute;
 	z-index: 2;
+	will-change: transform;
 }
 
 .card4 {
 	transform: rotate(0deg);
 	position: absolute;
 	z-index: 1;
+	will-change: transform;
 }
 
 .card5 {
 	transform: rotate(0deg);
 	position: absolute;
 	z-index: 0;
+	will-change: transform;
 }
 
 .card6 {
 	transform: rotate(0deg);
 	position: absolute;
 	z-index: -1;
+	will-change: transform;
 }
 
 .card7 {
 	transform: rotate(0deg);
 	position: absolute;
 	z-index: -2;
+	will-change: transform;
 }
 
 .card:hover .indexCard {
@@ -92,6 +98,7 @@
 	width: 350px;
 	height: 500px;
 	border-radius: 5px;
+	will-change: transform, background-color, box-shadow;
 	transition: 
 	transform 0.5s cubic-bezier(0.26, -0.2, 0.41, 1.32),
 		background-color 1.1s ease, 
