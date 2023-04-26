@@ -19,8 +19,21 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
-    background: black;
+    background-color: #002B5B;
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+  
+  body {
+    color: rgb(26, 26, 26);
+    background-color: #159895;
   }
 }
